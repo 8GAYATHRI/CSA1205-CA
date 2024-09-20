@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+	int decimalnumber;
+	printf("enter a decimal number:");
+	scanf("%d",&decimalnumber);
+	printf("hexadecimal equivalent:%x",decimalnumber);
+	return 0;
+}
